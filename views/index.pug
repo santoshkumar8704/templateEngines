@@ -1,0 +1,6 @@
+extends layouts/mainlayout.pug
+
+block content 
+    form(action="/adduser",method="POST")
+        input(type="text",name="username")
+        button(type="submit") click
